@@ -12,7 +12,7 @@ public class MusicTest {
         Music music = new Music(playlist);
         Integer startingIndex = 1;
         String selection = "cecelia";
-        Integer expected = 2;
+        Integer expected = 3;
         Integer actual = music.selection(startingIndex, selection);
         Assert.assertEquals(expected, actual);
     }
